@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+html{
+    font-size: 62.5%;
+} */
+.card-head {
+  position: absolute;
+  left: 2%;
+  top: 20%;
+}
+
+.card-para {
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.navbar-nav a {
+  font-size: 18px;
+}
+
+.card-title {
+  color: #000;
+}
+
+.card-text {
+  color: #000;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+}
+
+:root {
+  --text-color: #828286;
+}
+
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transition: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-hero-para {
+  font-size: 15px;
+  color: var(--text-color);
+  margin: 30px 0 20px 0;
+  font-family: lighter;
+  width: 75%;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  word-spacing: 5px;
+}
+
+.contact-img {
+  position: relative;
+  top: 0%;
+  right: 20%;
+}
+
+.emptycart {
+  width: 100%;
+  height: 45vh;
+}
+
+/* ----------------------------------------------Register Section Start ---------------------------------------------- */
+.form-control {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  margin-top: 15px !important;
+  box-shadow: none !important;
+}
+
+.register-form {
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.register-parent {
+  background-color: #fff;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.register-form {
+  background-color: #fff;
+}
+
+.register-form a {
+  text-decoration: none;
+}
+
+.register-top {
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #05151d;
+  z-index: 0 !important;
+}
+
+.z1 {
+  z-index: 1 !important;
+}
+
+
+/* ----------------------------------------------Register Section end ---------------------------------------------- */
+
+/* ----------------------------------------------Login Section Start ---------------------------------------------- */
+/* 
+.hide{
+  display: none;
+} */
+.form-control {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  margin-top: 15px !important;
+  box-shadow: none !important;
+}
+
+.login-form {
+  padding: 20px;
+  /* width: 100%; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.login-parent {
+  background-color: #fff;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.login-form {
+  background-color: #fff;
+}
+
+.login-form a {
+  text-decoration: none;
+}
+
+.login-bottom {
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #05151d;
+  z-index: 0 !important;
+}
+
+.z1 {
+  z-index: 1 !important;
+}
+
+
+/* ----------------------------------------------Login Section end ---------------------------------------------- */
+/* ----------------------------------------------order Section start ---------------------------------------------- */
+.order-button {
+  width: 100%;
+  align-items: left;
+  justify-content: left;
+  text-decoration: none;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.user-name {
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: -60px;
+  align-items: center;
+  justify-content: center;
+}
+.total{
+  width: 100%;
+  font-size: 16px !important;
+  display: flex;
+  padding-top: 10px;
+  justify-content: right !important;
+}
+.product{
+  padding-top: 10px;
+  font-size: 16px !important;
+}
+.product-info{
+  width: 100%;
+  font-size: 14px;
+  color: var(--text-color);
+}
+.total-info{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  font-size: 14px;
+  color: var(--text-color);
+}
+.user-name{
+  color: #000;
+  position: relative;
+  bottom: 40px;
+  margin-left: 0;
+  right: 25px;
+}
+.profile{
+  width: 50px;
+  border-radius: 50%;
+}
+/* ----------------------------------------------order Section end ---------------------------------------------- */
+/* ----------------------------------------------feedback testimonials Section start ---------------------------------------------- */
+.feedback-rightside{
+  border-radius: 10px;
+  transition: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.feedback-rightside input{
+  background-color: #e8e8ed;
+  border-radius: 15px;
+}
+.feedback-rightside textarea{
+  background-color: #e8e8ed;
+  border-radius: 15px;
+}
+
+/* ----------------------------------------------feedback testimonials Section end ---------------------------------------------- */
+
+
+/* ----------------------------------------------Footer Section Start ---------------------------------------------- */
+footer {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+footer h2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+footer ul li :hover {
+  color: #fff;
+}
+
+footer .main-hero-para {
+  margin: 0;
+}
+
+footer .fontawesome-style {
+  font-size: 23px;
+  color: #fff;
+  background-color: transparent;
+  width: 0;
+  height: 0;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+footer .fontawesome-style:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0% {
+    transform: scale(0.6);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+/* ----------------------------------------------Footer Section end ---------------------------------------------- */
